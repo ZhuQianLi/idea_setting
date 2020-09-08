@@ -76,6 +76,9 @@
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
   <action id="IntroduceParameter" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveTabRight">
