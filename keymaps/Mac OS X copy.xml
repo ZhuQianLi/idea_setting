@@ -108,11 +108,16 @@
     <keyboard-shortcut first-keystroke="meta alt p" />
   </action>
   <action id="RestoreDefaultLayout" />
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="meta f1" />
+  </action>
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ShowBookmarks" />
   <action id="ShowContent" />
+  <action id="ShowErrorDescription" />
   <action id="SmartTypeCompletion" />
   <action id="Stop" />
   <action id="XDebugger.EditWatch" />
