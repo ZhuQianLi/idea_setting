@@ -77,7 +77,7 @@
   <action id="GuiDesigner.EditGroup" />
   <action id="IntroduceParameter" />
   <action id="Javascript.Linters.EsLint.Fix">
-    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
