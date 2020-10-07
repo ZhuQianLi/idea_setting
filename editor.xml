@@ -5,4 +5,7 @@
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="16" />
   </component>
+  <component name="EditorSettings">
+    <option name="ENABLE_RENDERED_DOC" value="true" />
+  </component>
 </application>
