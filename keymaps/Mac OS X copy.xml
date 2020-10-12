@@ -44,6 +44,9 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace" />
@@ -77,6 +80,8 @@
   <action id="GotoNextIncompletePropertyAction" />
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
+  <action id="IncreaseColumnWidth" />
+  <action id="IncrementWindowWidth" />
   <action id="IntroduceParameter" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="shift meta l" />
@@ -84,7 +89,7 @@
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="shift meta 0" />
+    <keyboard-shortcut first-keystroke="shift meta right" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
@@ -109,6 +114,7 @@
   <action id="RearrangeCode">
     <keyboard-shortcut first-keystroke="meta alt p" />
   </action>
+  <action id="ResizeToolWindowRight" />
   <action id="RestoreDefaultLayout" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
