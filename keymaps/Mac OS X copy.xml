@@ -8,10 +8,13 @@
   <action id="ActivateRESTClientToolWindow">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
+  <action id="ActivateRunToolWindow" />
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
-  <action id="ActivateStructureToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
   <action id="ActivateTODOToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
