@@ -1,14 +1,17 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="15268" type="PLAIN_TEXT" />
-      <mapping pattern="15265" type="PLAIN_TEXT" />
       <mapping pattern="15266" type="PLAIN_TEXT" />
-      <mapping ext="bin" type="PLAIN_TEXT" />
+      <mapping pattern="15265" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping ext="bin" type="PLAIN_TEXT" />
+      <removed_mapping pattern="15783" approved="true" type="JSON5" />
       <removed_mapping pattern="BaseEffectDetail.jsx" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="request/*" approved="true" type="JSON5" />
+      <removed_mapping pattern="15*" approved="true" type="JSON5" />
     </extensionMap>
   </component>
 </application>
