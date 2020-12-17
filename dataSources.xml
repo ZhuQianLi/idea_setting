@@ -1,0 +1,34 @@
+<application>
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="快手开发" uuid="72c38aa4-3931-4fad-bf2e-c577665acb6c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.100.12:3306/hermes_ks</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="淘宝开发" uuid="c62c60a9-01b3-4f30-8fca-ce761789f644">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.100.12:3306/hermes_new_2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hera开发" uuid="29040d1e-96c2-4d50-a211-75f6cba28175">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.100.12:3306/hera</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="抖音开发" uuid="5fd73466-a172-448e-b392-fed761f6c05a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.100.12:3306/hermes_dy_new</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="淘宝测试【test】" read-only="true" uuid="787278ec-9e79-46f7-98b0-b7441dd0d18e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.100.12:3308/hermes_test</jdbc-url>
+    </data-source>
+  </component>
+</application>
