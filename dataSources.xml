@@ -36,5 +36,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.100.12:3306/hermes_pdd</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="快手测试【test】" read-only="true" uuid="572993e9-36d6-4b15-977a-a3cc3caa876d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.100.12:3308/hermes_ks_catalog</jdbc-url>
+    </data-source>
   </component>
 </application>
