@@ -42,5 +42,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://192.168.100.12:3308/hermes_ks_catalog</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="ClickHouse本地" group="本地" uuid="c88d05f0-876e-4f5c-86e3-1af15de0b4bd">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://0.0.0.0:8123</jdbc-url>
+    </data-source>
   </component>
 </application>
