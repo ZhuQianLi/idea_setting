@@ -79,8 +79,11 @@
   <action id="GotoAction" />
   <action id="GotoBookmark1" />
   <action id="GotoBookmark2" />
-  <action id="GotoNextError" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+  </action>
   <action id="GotoNextIncompletePropertyAction" />
+  <action id="GotoPreviousError" />
   <action id="GuiDesigner.EditComponent" />
   <action id="GuiDesigner.EditGroup" />
   <action id="IncreaseColumnWidth" />
