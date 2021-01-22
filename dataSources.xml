@@ -28,7 +28,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.100.12:3308/hermes_test</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.8.10:3307/hermes_test</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="拼多多开发" group="开发" uuid="61ca6cd2-b02c-4100-9009-5a1555a9d374">
       <driver-ref>mysql.8</driver-ref>
@@ -40,7 +40,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.100.12:3308/hermes_ks_catalog</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.8.10:3307/hermes_ks_catalog</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="ClickHouse本地" group="本地" uuid="c88d05f0-876e-4f5c-86e3-1af15de0b4bd">
       <driver-ref>clickhouse</driver-ref>
