@@ -12,7 +12,7 @@
     <mask>*.js</mask>
     <mask>*.jsx</mask>
     <mask>*.properties</mask>
-    <mask>*.java</mask>
     <mask>*.js*</mask>
+    <mask>*.java</mask>
   </component>
 </application>
