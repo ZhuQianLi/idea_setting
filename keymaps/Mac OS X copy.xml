@@ -31,16 +31,22 @@
   <action id="ClassNameCompletion" />
   <action id="CodeCompletion" />
   <action id="CommentByBlockComment" />
+  <action id="Compile" />
   <action id="Console.Jpa.GenerateDDL">
     <keyboard-shortcut first-keystroke="shift meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta f12" />
   </action>
+  <action id="Console.Open" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Console.TableResult.SetDefault" />
   <action id="ContextHelp" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+    <keyboard-shortcut first-keystroke="shift meta f9" />
+  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
@@ -127,6 +133,11 @@
   </action>
   <action id="ResizeToolWindowRight" />
   <action id="RestoreDefaultLayout" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+    <keyboard-shortcut first-keystroke="shift meta f10" />
+  </action>
+  <action id="RunTargetAction" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="meta f1" />
